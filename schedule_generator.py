@@ -30,9 +30,9 @@ schedule_schema = {
 
 def format_paper(paper_dict: Dict[str,str]) -> str:
     markdown = ""
-    markdown += f"## {paper_dict['title']}\n"
-    markdown += f"### Date: {paper_dict['discussion_date']}\n"
-    markdown += f"### Topic: {paper_dict['topic']}\n"
+    markdown += f"### {paper_dict['title']}\n"
+    markdown += f"#### Date: {paper_dict['discussion_date']}\n"
+    markdown += f"#### Topic: {paper_dict['topic']}\n"
     markdown += f"[Paper link]({paper_dict['url']})\n"
     markdown += f"{paper_dict['description']}\n"
     markdown += f"Date proposed: {paper_dict['date_proposed']}\n"
