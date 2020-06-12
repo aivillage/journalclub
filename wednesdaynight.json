@@ -1,0 +1,79 @@
+{
+    "time": "Wednesday 6pm PST",
+    "description": "The main journal club meeting",
+    "title": "Journal Club, Live!",
+    "papers": [
+        {
+            "title":"Magic: The Gathering is Turing Complete",
+            "url": "https://arxiv.org/abs/1904.09828",
+            "description": "",
+            "topic": "Games",
+            "date_proposed": "2020-05-22",
+            "date_discussed": "2020-05-22"
+        },
+        {
+            "title":"The Creation and Detection of Deepfakes: A Survey",
+            "url": "https://arxiv.org/abs/2004.11138",
+            "description": "",
+            "topic": "Deepfakes",
+            "date_proposed": "2020-05-22",
+            "date_discussed": "2020-05-22"
+        },
+        {
+            "title":"Adversarial Machine Learning -- Industry Perspectives",
+            "url": "https://arxiv.org/abs/2002.05646",
+            "description": "",
+            "topic": "Adervarial Examples",
+            "date_proposed": "2020-05-22",
+            "date_discussed": "2020-05-22"
+        },
+        {
+            "title":"KiloGrams: Very Large N-Grams for Malware Classification",
+            "url": "https://arxiv.org/abs/1908.00200",
+            "description": "",
+            "topic": "Malware",
+            "date_proposed": "2020-05-22",
+            "date_discussed": "2020-05-22"
+        },
+        {
+            "title":"Auditing Data Provenance in Text-Generation Models",
+            "url": "https://arxiv.org/abs/1811.00513",
+            "description": "",
+            "topic": "Privacy",
+            "date_proposed": "2020-05-22",
+            "date_discussed": "2020-06-10"
+        },
+        {
+            "title":"CT-GAN: Malicious Tampering of 3D Medical Imagery using Deep Learning",
+            "url": "https://arxiv.org/abs/1901.03597",
+            "description": "",
+            "topic": "Medicine",
+            "date_proposed": "2020-05-22",
+            "date_discussed": "2020-06-17"
+        },
+        {
+            "title":"Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods",
+            "url": "https://arxiv.org/abs/1911.02508",
+            "description": "",
+            "topic": "Verifiability",
+            "date_proposed": "2020-05-22",
+            "date_discussed": "2020-06-24"
+        },
+        {
+            "title":"Adversarial Genetic Programming for Cyber Security: A Rising Application Domain Where GP Matters",
+            "url": "https://arxiv.org/abs/2004.04647",
+            "description": "",
+            "topic": "Genetic Programming",
+            "date_proposed": "2020-05-22",
+            "date_discussed": "2020-07-01"
+        },
+        {
+            "title":"Training Keyword Spotting Models on Non-IID Data with Federated Learning",
+            "url": "https://arxiv.org/abs/2005.10406",
+            "description": "",
+            "topic": "Privacy",
+            "date_proposed": "2020-05-22",
+            "date_discussed": "2020-07-08"
+        }
+    ]
+}
