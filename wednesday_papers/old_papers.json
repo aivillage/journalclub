@@ -1,0 +1,34 @@
+[
+    {
+        "title":"The Creation and Detection of Deepfakes: A Survey",
+        "url": "https://arxiv.org/abs/2004.11138",
+        "description": "",
+        "topic": "Deepfakes",
+        "date_proposed": "2020-05-22",
+        "discussion_date": "2020-05-22"
+    },
+    {
+        "title":"Adversarial Machine Learning -- Industry Perspectives",
+        "url": "https://arxiv.org/abs/2002.05646",
+        "description": "",
+        "topic": "Adervarial Examples",
+        "date_proposed": "2020-05-22",
+        "discussion_date": "2020-05-22"
+    },
+    {
+        "title":"KiloGrams: Very Large N-Grams for Malware Classification",
+        "url": "https://arxiv.org/abs/1908.00200",
+        "description": "",
+        "topic": "Malware",
+        "date_proposed": "2020-05-22",
+        "discussion_date": "2020-05-22"
+    },
+    {
+        "title":"Auditing Data Provenance in Text-Generation Models",
+        "url": "https://arxiv.org/abs/1811.00513",
+        "description": "",
+        "topic": "Privacy",
+        "date_proposed": "2020-05-22",
+        "discussion_date": "2020-06-10"
+    }
+]
