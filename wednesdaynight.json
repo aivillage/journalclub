@@ -9,7 +9,7 @@
             "description": "",
             "topic": "Games",
             "date_proposed": "2020-05-22",
-            "date_discussed": "2020-05-22"
+            "discussion_date": "2020-05-22"
         },
         {
             "title":"The Creation and Detection of Deepfakes: A Survey",
@@ -17,7 +17,7 @@
             "description": "",
             "topic": "Deepfakes",
             "date_proposed": "2020-05-22",
-            "date_discussed": "2020-05-22"
+            "discussion_date": "2020-05-22"
         },
         {
             "title":"Adversarial Machine Learning -- Industry Perspectives",
@@ -25,7 +25,7 @@
             "description": "",
             "topic": "Adervarial Examples",
             "date_proposed": "2020-05-22",
-            "date_discussed": "2020-05-22"
+            "discussion_date": "2020-05-22"
         },
         {
             "title":"KiloGrams: Very Large N-Grams for Malware Classification",
@@ -33,7 +33,7 @@
             "description": "",
             "topic": "Malware",
             "date_proposed": "2020-05-22",
-            "date_discussed": "2020-05-22"
+            "discussion_date": "2020-05-22"
         },
         {
             "title":"Auditing Data Provenance in Text-Generation Models",
@@ -41,7 +41,7 @@
             "description": "",
             "topic": "Privacy",
             "date_proposed": "2020-05-22",
-            "date_discussed": "2020-06-10"
+            "discussion_date": "2020-06-10"
         },
         {
             "title":"CT-GAN: Malicious Tampering of 3D Medical Imagery using Deep Learning",
@@ -49,7 +49,7 @@
             "description": "",
             "topic": "Medicine",
             "date_proposed": "2020-05-22",
-            "date_discussed": "2020-06-17"
+            "discussion_date": "2020-06-17"
         },
         {
             "title":"Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods",
@@ -57,7 +57,7 @@
             "description": "",
             "topic": "Verifiability",
             "date_proposed": "2020-05-22",
-            "date_discussed": "2020-06-24"
+            "discussion_date": "2020-06-24"
         },
         {
             "title":"Adversarial Genetic Programming for Cyber Security: A Rising Application Domain Where GP Matters",
@@ -65,7 +65,7 @@
             "description": "",
             "topic": "Genetic Programming",
             "date_proposed": "2020-05-22",
-            "date_discussed": "2020-07-01"
+            "discussion_date": "2020-07-01"
         },
         {
             "title":"Training Keyword Spotting Models on Non-IID Data with Federated Learning",
@@ -73,7 +73,7 @@
             "description": "",
             "topic": "Privacy",
             "date_proposed": "2020-05-22",
-            "date_discussed": "2020-07-08"
+            "discussion_date": "2020-07-08"
         }
     ]
 }
