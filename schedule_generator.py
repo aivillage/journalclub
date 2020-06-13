@@ -2,8 +2,25 @@ import os
 import json
 import datetime
 import jsonschema
-from typing import Dict, Tuple, List
+from typing import Dict, Tuple, List, Optional
 
+
+readme_header = """# AI Village Journal Clubs Schedules
+
+Welcome to the AI Village journal club schedules. The next papers we're discussing are right below this description, 
+or checkout the schedules for the individual days for a look further into the future.  
+
+
+"""
+
+readme_footer = """
+
+# Contributing
+
+If you have a paper you want us to discuss, open a PR with a JSON file with the paper name, link, description, and topic. 
+You also have to propose a time and add the date you proposed the paper. There are examples in the folders for the respective days. 
+Once the paper has been approved (there will be a little discussion on the PR), we'll merge the PR and regenerate the markdown schedules.
+"""
 
 paper_schema = {
     "type": "object",
@@ -37,10 +54,14 @@ schedule_schema = {
     },
 }
 
-def format_paper(paper_dict: Dict[str,str]) -> str:
+def format_paper(paper_dict: Dict[str,str], time: Optional[str]= None, jc_title: Optional[str]= None) -> str:
     markdown = ""
+    if jc_title is not None:
+        markdown += f"## {jc_title}\n"
     markdown += f"### {paper_dict['title']}\n"
     markdown += f"#### Date: {paper_dict['discussion_date']}\n"
+    if time is not None:
+        markdown += f"#### Time: {time}\n"
     markdown += f"#### Topic: {paper_dict['topic']}\n"
     markdown += f"[Paper link]({paper_dict['url']})\n"
     markdown += f"{paper_dict['description']}\n"
@@ -85,7 +106,7 @@ def sort_paper_discussion_date(
 
     return new_papers,old_papers
 
-def format_schedule(schedule_path: str,output_path: str) -> str:
+def format_schedule(schedule_path: str,output_path: str) -> Optional[str]:
     with open(schedule_path) as file:
         schedule = json.load(file)
         jsonschema.validate(instance=schedule, schema=schedule_schema)
@@ -116,5 +137,17 @@ def format_schedule(schedule_path: str,output_path: str) -> str:
     with open(output_path,"w+") as file:
         file.write(markdown)
 
+    return format_paper(new_papers[0],schedule["time"],schedule["title"])
 
-format_schedule("wednesdaynight.json","README.md")
+next_wednesday = format_schedule("wednesdaynight.json","WednesdaySchedule.md")
+next_thursday = format_schedule("thursdayafternoon.json","ThursdaySchedule.md")
+
+markdown = readme_header 
+if next_wednesday is not None:
+    markdown += next_wednesday
+if next_thursday is not None:
+    markdown += next_thursday
+markdown += readme_footer
+
+with open("README.md","w+") as file:
+        file.write(markdown)

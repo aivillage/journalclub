@@ -1,13 +1,13 @@
-# Journal Club, Live!
-## Time: Wednesday 6pm PST
+# AI Village Journal Clubs Schedules
 
-________
+Welcome to the AI Village journal club schedules. The next papers we're discussing are right below this description, 
+or checkout the schedules for the individual days for a look further into the future.  
 
-The main journal club meeting
 
-****
+## Twitch Journal Club
 ### CT-GAN: Malicious Tampering of 3D Medical Imagery using Deep Learning
 #### Date: 2020-06-17
+#### Time: Wednesday 6pm PST
 #### Topic: Medicine
 [Paper link](https://arxiv.org/abs/1901.03597)
 
@@ -15,80 +15,21 @@ Date proposed: 2020-05-22
 
 ****
 
-### Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods
-#### Date: 2020-06-24
-#### Topic: Verifiability
-[Paper link](https://arxiv.org/abs/1911.02508)
+## Techincal Papers Journal Club
+### Stateful Detection of Black-Box Adversarial Attacks
+#### Date: 2020-06-18
+#### Time: Thursday 11am PST
+#### Topic: Adversarial Attacks
+[Paper link](https://arxiv.org/abs/1907.05587)
 
-Date proposed: 2020-05-22
-
-****
-
-### Adversarial Genetic Programming for Cyber Security: A Rising Application Domain Where GP Matters
-#### Date: 2020-07-01
-#### Topic: Genetic Programming
-[Paper link](https://arxiv.org/abs/2004.04647)
-
-Date proposed: 2020-05-22
-
-****
-
-### Training Keyword Spotting Models on Non-IID Data with Federated Learning
-#### Date: 2020-07-08
-#### Topic: Privacy
-[Paper link](https://arxiv.org/abs/2005.10406)
-
-Date proposed: 2020-05-22
+Date proposed: 2020-06-12
 
 ****
 
 
-****************
 
-## Old Papers:
+# Contributing
 
-### Magic: The Gathering is Turing Complete
-#### Date: 2020-05-22
-#### Topic: Games
-[Paper link](https://arxiv.org/abs/1904.09828)
-
-Date proposed: 2020-05-22
-
-****
-
-### The Creation and Detection of Deepfakes: A Survey
-#### Date: 2020-05-22
-#### Topic: Deepfakes
-[Paper link](https://arxiv.org/abs/2004.11138)
-
-Date proposed: 2020-05-22
-
-****
-
-### Adversarial Machine Learning -- Industry Perspectives
-#### Date: 2020-05-22
-#### Topic: Adervarial Examples
-[Paper link](https://arxiv.org/abs/2002.05646)
-
-Date proposed: 2020-05-22
-
-****
-
-### KiloGrams: Very Large N-Grams for Malware Classification
-#### Date: 2020-05-22
-#### Topic: Malware
-[Paper link](https://arxiv.org/abs/1908.00200)
-
-Date proposed: 2020-05-22
-
-****
-
-### Auditing Data Provenance in Text-Generation Models
-#### Date: 2020-06-10
-#### Topic: Privacy
-[Paper link](https://arxiv.org/abs/1811.00513)
-
-Date proposed: 2020-05-22
-
-****
-
+If you have a paper you want us to discuss, open a PR with a JSON file with the paper name, link, description, and topic. 
+You also have to propose a time and add the date you proposed the paper. There are examples in the folders for the respective days. 
+Once the paper has been approved (there will be a little discussion on the PR), we'll merge the PR and regenerate the markdown schedules.

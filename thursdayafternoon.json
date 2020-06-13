@@ -1,0 +1,17 @@
+{
+    "time": "Thursday 11am PST",
+    "description": "Discussions on technical papers!",
+    "title": "Techincal Papers Journal Club",
+    "papers_dir": "thursday_papers",
+
+    "papers": [
+        {
+            "title":"Stateful Detection of Black-Box Adversarial Attacks",
+            "url": "https://arxiv.org/abs/1907.05587",
+            "description": "",
+            "topic": "Adversarial Attacks",
+            "date_proposed": "2020-06-12",
+            "discussion_date": "2020-06-18"
+        }
+    ]
+}
