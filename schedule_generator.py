@@ -96,7 +96,7 @@ def sort_paper_discussion_date(
 
     for paper in papers:
         paper_date = get_discussion_date(paper)
-        if current < paper_date:
+        if current <= paper_date:
             new_papers.append(paper)
         else:
             old_papers.append(paper)
