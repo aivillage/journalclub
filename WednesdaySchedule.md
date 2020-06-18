@@ -6,15 +6,6 @@ ________
 The main journal club meeting
 
 ****
-### CT-GAN: Malicious Tampering of 3D Medical Imagery using Deep Learning
-#### Date: 2020-06-17
-#### Topic: Medicine
-[Paper link](https://arxiv.org/abs/1901.03597)
-
-Date proposed: 2020-05-22
-
-****
-
 ### Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods
 #### Date: 2020-06-24
 #### Topic: Verifiability
@@ -87,6 +78,15 @@ Date proposed: 2020-05-22
 #### Date: 2020-06-10
 #### Topic: Privacy
 [Paper link](https://arxiv.org/abs/1811.00513)
+
+Date proposed: 2020-05-22
+
+****
+
+### CT-GAN: Malicious Tampering of 3D Medical Imagery using Deep Learning
+#### Date: 2020-06-17
+#### Topic: Medicine
+[Paper link](https://arxiv.org/abs/1901.03597)
 
 Date proposed: 2020-05-22
 
