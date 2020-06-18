@@ -5,11 +5,11 @@ or checkout the schedules for the individual days for a look further into the fu
 
 
 ## Twitch Journal Club
-### Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods
-#### Date: 2020-06-24
+### CT-GAN: Malicious Tampering of 3D Medical Imagery using Deep Learning
+#### Date: 2020-06-17
 #### Time: Wednesday 6pm PST
-#### Topic: Verifiability
-[Paper link](https://arxiv.org/abs/1911.02508)
+#### Topic: Medicine
+[Paper link](https://arxiv.org/abs/1901.03597)
 
 Date proposed: 2020-05-22
 
